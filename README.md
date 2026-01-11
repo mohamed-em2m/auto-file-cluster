@@ -9,12 +9,12 @@ This is a simple Bash script that organizes files in a given folder by their fil
 
 ## Usage
 ```bash
-./sort_by_type.sh <folder_path>
+./cluster_files.sh <folder_path>
 ```
 
 ### Example
 ```bash
-./sort_by_type.sh /home/user/Downloads
+./cluster_files.sh /home/user/Downloads
 ```
 
 If the `Downloads` folder contains files like `file.txt`, `image.png`, and `document.pdf`, the script will create the following structure:
@@ -34,7 +34,8 @@ Downloads/
 
 ## How to Give Execution Permission
 ```bash
-chmod +x sort_by_type.sh
+chmod +x cluster_files.sh
+cluster_files.sh .
 ```
 
 ## Notes
